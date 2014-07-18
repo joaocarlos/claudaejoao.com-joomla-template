@@ -1,0 +1,138 @@
+/* Matrix Colors RGBA
+* EA0037FF Pink
+* F53D68FF Light Pink
+* F56E8dFF Lighter Pink
+* 980023FF Dark Pink
+* */
+
+html{height: 100%; background: #e7ddac url(images/bg.png) repeat-x;}
+a {color: #F53D68}
+body{font-family: "Trebuchet MS", Verdana, Helvetica, sans-serif;}
+header {width: 900px; margin: auto; margin-top: 20px; text-indent: -5000px;}
+header #pics{
+  background: url(images/photo.png) no-repeat;
+  float:left;
+  position:relative;
+  left:-15px;
+  width: 350px;
+  height: 320px;
+}
+header #media {
+  height: 40px;
+}
+header #wishes{
+  background: #F56E8d 150px 80px url(images/wishes.png) no-repeat;  
+  height: 280px;
+  -webkit-border-left-radius: 25px;
+  -moz-border-left-radius: 25px;
+  -webkit-border-right-radius: 25px;
+  -moz-border-right-radius: 25px;    
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+
+}
+header #title {
+  background: #EA0037 220px 0 url(images/casamento.png) no-repeat;
+  height: 50px;
+  width: 100%;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+}
+
+header #names {
+  height: 100%;
+  width: 50%;
+  background: right url(images/cau-e-joao.png) no-repeat;
+  position: relative;
+  top: 70px;
+  right: 10px;
+  left: 420px;
+}
+
+div#body, div#portal {
+  width:894px; 
+  /*height: 540px;*/ 
+  background-color: #ffffff;
+  margin:auto; 
+  border:3px solid #EA0037;
+  border-top: 0;
+  font-family: Georgia, Serif, Times; /* "Trebuchet MS", sans-serif;*/
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+div#portal {
+  width: 996px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;  
+  border-right: none;
+}
+
+div#messages {
+  height: 80px;
+  padding-top: 50px;
+  padding-left: 50px;
+  color: #980023;
+}
+
+div#body nav {
+  /*height:250px;*/
+  width:90%;
+  background: 0 0 url(../images/line-drop.png) no-repeat;
+  margin:30px auto;
+  }
+nav.main ul {margin-left:20px;}
+nav.main li, ul#menu-text li {
+  background: 10px 0 url(images/menu-bg.png) no-repeat; 
+  width:123px;
+  height: 130px;
+  float:left;
+  margin-left:30px;
+  }
+nav.main {text-align: center;}
+nav.main a {text-decoration: none;}
+nav.main a:hover {color:#980023}
+
+ul#menu-text li {
+  font-size: 17px;
+  text-align: center;
+  background: transparent;
+  color: #980023;
+}
+  
+footer {
+  clear: both;
+  background: #EA0037;
+  height: 40px;
+  width: 100%;
+  position: relative;
+  left: -3px;
+  border:3px solid #EA0037;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;  
+}             
+
+footer p {
+  font-size: 13px;
+  margin: 12px;
+  color: white;
+  font-style: italic;
+}
+
+footer a {color: #F56E8d;}
+
+#spacer{height: 30px;}
+
+div#counter {
+  position: relative;
+  top: 25px;
+  width: 854px;
+  margin: auto;
+  text-align: right;
+  font-size: 22px;
+  color: #EA0037;
+}
+
+div#defaultCountdown { width: 500px; display: block; }
